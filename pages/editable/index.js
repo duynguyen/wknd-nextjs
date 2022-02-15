@@ -11,7 +11,7 @@ import ResponsiveGrid from '../../components/AEMResponsiveGrid'
 const NEXT_PUBLIC_AEM_HOST = process.env.NEXT_PUBLIC_AEM_HOST
 const NEXT_PUBLIC_AEM_SITE = process.env.NEXT_PUBLIC_AEM_SITE
 
-const PAGE_PATH=`/content/editorxpdevelopment/duy-sandbox`
+const PAGE_PATH=`/content/editorxpdevelopment/duy-sandbox/en`
 
 export default function Editable({ model }) {
   const modelClient = new CustomModelClient(NEXT_PUBLIC_AEM_HOST)
